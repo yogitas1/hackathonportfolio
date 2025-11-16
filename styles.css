@@ -300,22 +300,73 @@ body {
 
 .about-content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr;
     gap: 4rem;
-    align-items: start;
 }
 
-.about-text h3 {
-    font-size: 1.5rem;
+.team-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.team-intro h3 {
+    font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 1rem;
     color: #1f2937;
 }
 
-.about-text p {
+.team-intro p {
     margin-bottom: 2rem;
     color: #4b5563;
     line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+.team-photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.team-image-container {
+    text-align: center;
+}
+
+.team-image-placeholder {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 4px solid white;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.team-image-placeholder:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+.team-image-placeholder i {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.add-photo-text {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.9;
 }
 
 .skills {
@@ -556,11 +607,33 @@ body {
     background: #f9fafb;
 }
 
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LinkedIn Section Centered */
+.linkedin-section-centered {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.linkedin-section-centered h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 2rem;
+}
+
 /* LinkedIn Profiles */
 .linkedin-profiles {
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
     margin-top: 0.5rem;
 }
 
@@ -780,6 +853,11 @@ body {
     .contact-content {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+
+    .linkedin-profiles {
+        flex-direction: column;
+        gap: 1rem;
     }
 
     .footer-content {
