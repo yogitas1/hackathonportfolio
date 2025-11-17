@@ -1,136 +1,157 @@
-# Portfolio Website
+# AI Hackathon Portfolio - Yogita & Kriti
 
-A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
+A modern, professional portfolio website showcasing AI projects built at hackathons by Yogita Senthil and Kriti Shukla.
 
-## Features
+## 🚀 Features
 
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Modern UI**: Clean, professional design with smooth animations
-- **About Section**: Showcase your skills, experience, and personality
-- **Projects Section**: Display your work with titles, descriptions, and GitHub links
-- **Contact Form**: Allow visitors to get in touch with you
-- **Smooth Scrolling**: Enhanced user experience with smooth navigation
-- **Mobile Navigation**: Hamburger menu for mobile devices
+- **Hero Section with Background Image**: Team photo as hero background with beautiful gradient overlay
+- **Professional Introduction**: Compelling story about our AI journey
+- **Animated Elements**: Smooth fade-in animations and hover effects
+- **Project Showcase**: AI-powered projects with detailed descriptions
+- **Tech Stack Display**: Visual representation of tools and frameworks we use
+- **Responsive Design**: Fully responsive on all devices
+- **Stats Section**: Highlight hackathon attendance and projects built
+- **LinkedIn Integration**: Direct links to both team members' profiles
 
-## Sections
+## 🎨 Design Highlights
 
-### 1. Hero Section
-- Eye-catching introduction with your name and title
-- Call-to-action buttons
-- Professional profile placeholder
+- Clean, modern design with gradient accents (purple/blue theme)
+- Professional color scheme optimized for AI/tech portfolios
+- Card-based layouts with hover effects
+- Smooth animations and transitions
+- Mobile-first responsive design
+- Font Awesome icons throughout
 
-### 2. About Section
-- Personal introduction
-- Skills showcase with icons
-- Statistics/achievements display
-
-### 3. Projects Section
-- Project cards with:
-  - Project title
-  - Description
-  - Technology tags
-  - GitHub links
-  - Live demo links (optional)
-
-### 4. Contact Section
-- Contact information
-- Contact form
-- Social media links
-
-## Customization
-
-### Personal Information
-1. **Update your name**: Replace "Your Name" in the hero section
-2. **Add your title**: Update "Full Stack Developer & Creative Problem Solver"
-3. **Write your bio**: Customize the about section content
-4. **Update contact info**: Add your real email, LinkedIn, and GitHub links
-
-### Projects
-To add your own projects, edit the projects section in `index.html`:
-
-```html
-<div class="project-card">
-    <div class="project-content">
-        <h3 class="project-title">Your Project Title</h3>
-        <p class="project-description">Your project description here...</p>
-        <div class="project-tech">
-            <span class="tech-tag">Technology 1</span>
-            <span class="tech-tag">Technology 2</span>
-        </div>
-        <a href="https://github.com/yourusername/your-repo" target="_blank" class="project-github">
-            <i class="fab fa-github"></i> View on GitHub
-        </a>
-    </div>
-</div>
-```
-
-### Colors and Styling
-The main colors used in the design:
-- Primary Blue: `#2563eb`
-- Secondary Yellow: `#fbbf24`
-- Dark Gray: `#1f2937`
-- Light Gray: `#f9fafb`
-
-You can customize these colors in the `styles.css` file.
-
-### Adding Your Photo
-Replace the profile placeholder in the hero section:
-1. Add your photo to the portfolio folder
-2. Replace the placeholder div with an img tag:
-```html
-<div class="hero-image">
-    <img src="your-photo.jpg" alt="Your Name" class="profile-image">
-</div>
-```
-
-## Technologies Used
-
-- **HTML5**: Semantic markup
-- **CSS3**: Modern styling with Flexbox and Grid
-- **JavaScript**: Interactive functionality
-- **Font Awesome**: Icons
-- **Google Fonts**: Inter font family
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## Getting Started
-
-1. Open `index.html` in your web browser
-2. Customize the content with your information
-3. Add your own projects
-4. Deploy to your preferred hosting platform
-
-## Deployment Options
-
-- **GitHub Pages**: Free hosting for static sites
-- **Netlify**: Easy deployment with continuous integration
-- **Vercel**: Fast deployment with automatic HTTPS
-- **Traditional Web Hosting**: Upload files via FTP
-
-## File Structure
+## 📂 Structure
 
 ```
-portfolio/
+hackathonportfolio/
 ├── index.html          # Main HTML file
-├── styles.css          # CSS styles
-├── script.js           # JavaScript functionality
+├── styles.css          # CSS styles with animations
+├── script.js           # JavaScript for interactivity
+├── team-photo.png      # Team photo (used as hero background)
 └── README.md           # This file
 ```
 
-## Tips for Success
+## 🎯 Sections
 
-1. **Keep it updated**: Regularly add new projects and update your skills
-2. **Use real projects**: Showcase actual work you've completed
-3. **Write clear descriptions**: Explain what each project does and your role
-4. **Include live demos**: When possible, provide links to working applications
-5. **Optimize for SEO**: Add meta descriptions and proper heading structure
-6. **Test on mobile**: Ensure your site works well on all devices
+### 1. Navigation
+- Fixed navbar with smooth scrolling
+- Mobile-responsive hamburger menu
+- Active link highlighting
 
-## License
+### 2. Hero Section
+- Team photo as background with gradient overlay
+- Professional tagline: "Building the Future with Artificial Intelligence"
+- Mini stats badges (projects, hackathons, full-stack AI)
+- Call-to-action buttons
 
-This project is open source and available under the [MIT License](LICENSE).
+### 3. About/Meet the Team
+- Three story cards:
+  - Our Journey
+  - What We Do
+  - Our Philosophy
+- Tech Arsenal section showcasing tools:
+  - OpenAI GPT-4
+  - Voice AI (Vapi)
+  - React & TypeScript
+  - Python & Flask
+  - LlamaIndex
+  - Cloud Deployment
+
+### 4. Stats Section
+- 10+ AI Projects Built
+- 5+ Hackathons Attended
+- 100% Passion Driven
+- ∞ Continuous Learning
+
+### 5. Projects Section
+Current projects featured:
+1. **educAIte** - AI-powered tutoring platform
+2. **Benefit Clarity AI** - SBC document parser with chat interface
+3. **Safety First Now 58** - Emergency preparedness app
+
+### 6. Contact Section
+- LinkedIn profile links for both team members
+- Professional contact layout
+
+## 🛠️ Technologies Used
+
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with animations, gradients, and flexbox/grid
+- **JavaScript** - Smooth scrolling, mobile menu, animations
+- **Font Awesome 6.0** - Icons
+- **Google Fonts** - Inter font family
+
+## 🎨 Color Palette
+
+- Primary Purple: `#667eea`
+- Secondary Purple: `#764ba2`
+- Accent Yellow: `#fbbf24`
+- Dark Gray: `#1f2937`
+- Light Background: `#f9fafb`
+
+## 🚀 Getting Started
+
+1. Clone the repository
+2. Open `index.html` in your browser
+3. To deploy:
+   - **GitHub Pages**: Enable in repository settings
+   - **Netlify**: Drag and drop the folder
+   - **Vercel**: Connect your repository
+
+## 📱 Responsive Breakpoints
+
+- Desktop: > 768px
+- Tablet: 768px
+- Mobile: < 480px
+
+## ✨ Key Features Implementation
+
+### Hero Background
+The hero section uses the team photo as a background with a gradient overlay for readability:
+```css
+.hero-bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-overlay {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.92) 0%, rgba(118, 75, 162, 0.92) 100%);
+}
+```
+
+### Animations
+Smooth fade-in animations for hero elements:
+```css
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+```
+
+## 🤝 Contributing
+
+This portfolio represents our hackathon journey. To update:
+1. Add new projects to the projects section
+2. Update stats as we attend more hackathons
+3. Keep the tech stack current with new tools we learn
+
+## 📄 License
+
+MIT License - feel free to use this template for your own portfolio!
+
+## 👥 Team
+
+- **Yogita Senthil** - [LinkedIn](https://www.linkedin.com/in/yogita-senthil-8a9227226/) | [GitHub](https://github.com/yogitas1)
+- **Kriti Shukla** - [LinkedIn](https://www.linkedin.com/in/kriti-shukla-258396182/)
+
+---
+
+Built with 💜 and lots of ☕ by Yogita & Kriti
