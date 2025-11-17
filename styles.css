@@ -129,7 +129,8 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: 20% center;
+    transform: scale(1.2);
 }
 
 .hero-overlay {
@@ -149,6 +150,14 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 900px;
 }
 
 .hero-badge {
@@ -199,6 +208,8 @@ body {
     opacity: 0.9;
     line-height: 1.8;
     max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     animation: fadeInUp 0.8s ease-out 0.6s both;
 }
 
@@ -208,6 +219,7 @@ body {
     margin-bottom: 2rem;
     flex-wrap: wrap;
     animation: fadeInUp 0.8s ease-out 0.8s both;
+    justify-content: center;
 }
 
 .mini-stat {
@@ -252,6 +264,7 @@ body {
     display: flex;
     gap: 1rem;
     animation: fadeInUp 0.8s ease-out 1s both;
+    justify-content: center;
 }
 
 .btn {
